@@ -1,0 +1,30 @@
+#pragma once
+
+#include "symbol.h"
+#include <set>
+#include <cstdio>
+#include <iostream>
+
+using namespace std;
+
+class alphabet{
+   
+   public:
+   
+   set<symbol> alphabet_;
+   
+   alphabet();
+   
+   ~alphabet();
+   
+   void clear();
+   
+   int size();
+   
+   bool it_belongs(const symbol&);
+   
+   void insert(symbol);
+   
+   void print();
+   
+};
