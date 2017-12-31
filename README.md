@@ -2,7 +2,7 @@
 Implementation of a NFA in C++. As opposed to a DFA, where of its transitions is uniquely determined by its source state and input symbol and
 reading an input symbol is required for each state transition. The NFA does not obey these restrictions.
 
-The program can read, and show a NFA. Besides it can show the dead states, see if the NFA is a DFA and analyze a string to see if it belongs to the DFA.
+The program can read, and show a NFA. Besides it can show the dead states, see if the NFA is a DFA and analyze a string to see if it belongs to the NFA.
 
 ## Author
 Ángel Luis Igareta Herráiz
